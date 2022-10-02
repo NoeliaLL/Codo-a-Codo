@@ -1,0 +1,64 @@
+section {
+    background-image: url(./imagenes/ba1.jpg);
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+}
+
+article {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 500px;
+    align-items: center;
+
+}
+
+.containertit {
+    text-align: center;
+    margin: 15px;
+}
+
+.textform {
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(18, 79, 114);
+    height: 100px;
+}
+
+.form-horizontal {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#nombre {
+    padding-left: 10px;
+}
+
+#apellido {
+    padding-right: 35px;
+}
+
+#area {
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.descripcion {
+    width: 100%;
+}
+
+.pie {
+    color: darkgray;
+}
+
+.infofooter {
+    color: white;
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+.infofooter:hover {
+    color: rgb(48, 112, 46);
+}
